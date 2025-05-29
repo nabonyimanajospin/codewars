@@ -1,14 +1,11 @@
-// This function calculates the sum of all integers from 1 to `num` (inclusive).
-// For example: if num = 8, it returns 1+2+3+...+8 = 36
+// 📘 Kata: Summation
+// Write a program that finds the summation of every number from 1 to num (both inclusive).
+// For example, summation(8) should return 36 because 1+2+3+4+5+6+7+8 = 36.
 
 function summation(num) {
-  let sum = 0;
+  let total = 0;
   for (let i = 1; i <= num; i++) {
-    sum += i;
+    total += i;
   }
-  return sum;
+  return total;
 }
-
-// ✅ Example usage:
-console.log(summation(2)); // Output: 3  (1 + 2)
-console.log(summation(8)); // Output: 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
