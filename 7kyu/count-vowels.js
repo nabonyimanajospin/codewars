@@ -1,9 +1,6 @@
 // Function to count vowels in a given string
 function getCount(str) {
-  // Define the vowels we are checking for
   const vowels = ['a', 'e', 'i', 'o', 'u'];
-  
-  // Use split + filter to count only vowels
   return str.split('').filter(char => vowels.includes(char)).length;
 }
 
